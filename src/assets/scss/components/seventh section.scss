@@ -1,0 +1,37 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+
+
+.backed{
+   font-family: $headers-font;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 3.6rem;
+   line-height: 4.6rem;
+   text-align: center;
+   color: $c-text;
+   margin: 12rem 0 11.5rem;
+}
+
+.sponsors{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:center;
+   margin: 0 4rem 12.5rem;
+}
+.img-sponsors{
+   margin: 0 4rem 12.5rem;
+   
+}
+
+.line{
+   border-bottom: 0.01rem solid #C7C7C7;
+   width: 135rem;
+   background:#C7C7C7;
+   height:1px;
+   margin: 0 auto 12rem;
+   
+
+}
+   

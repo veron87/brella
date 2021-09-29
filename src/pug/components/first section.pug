@@ -1,0 +1,18 @@
+section.firs-selection
+   div.first
+      div.container
+         h1.title Give your team peace of mind with supplemental health insurance from Brella.
+         p.quote I'm wondering...
+   div.container      
+      div.item
+         div.aside 
+            mixin item(img, title, description)
+               .items
+                  .item-img
+                     img(src=img, alt=features)
+                  div   
+                     .item__title=title
+                     .item__description=description
+            +item("./assets/imgs/umbrella.png","More coverage","Brella covers 13,000+ injuries and illnesses from concussions to cancer.")
+            +item("./assets/imgs/sign.png","Less hassle","One easy-to-manage plan with paperless install and online admin tools.")
+            +item("./assets/imgs/benefits.png","Faster benefits","Brella pays claims in hours–not weeks so your people can rest easy.")             

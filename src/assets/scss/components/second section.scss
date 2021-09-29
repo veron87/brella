@@ -1,0 +1,61 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+.deductible{
+   margin-top:13.7rem;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 6rem;
+   margin-bottom: 15.5rem;
+}
+
+.why{
+   font-family:$secondary-font ;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.3rem;
+   line-height: 2rem;
+   letter-spacing: 0.05px;
+   text-transform: uppercase;
+   margin-bottom: 2rem;
+}
+
+.information{
+   font-family: $headers-font;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 3.6rem;
+   line-height: 4.6rem;
+   color: $c-text;
+   max-width: 48rem;
+   margin-bottom: 3.4rem;
+   
+}
+.plan{
+   font-family: $secondary-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.8rem;
+   line-height: 3rem;
+   letter-spacing: 0.02px;
+   color:$c-text2;
+   max-width: 47.7rem;
+   margin-bottom: 2.6rem;
+}
+.nav{
+   font-family: $secondary-font;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1.8rem;
+   line-height: 1.8rem;
+   letter-spacing: 0.02px;
+   color:$c-text;
+   border-bottom: 2px solid #214E41;
+   padding-bottom: 1.2rem;
+
+    
+   
+}
+

@@ -1,0 +1,143 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+
+
+.footer{
+   background: #214E41;
+   min-height:78.8rem;
+}
+
+.contacts{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: 10rem;
+  
+}
+
+.vector-img{
+   margin-bottom:12rem;
+}
+.link-text{
+   margin-left: 10.5rem;
+}
+
+.name-contacts{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1.3rem;
+   line-height: 2.4rem;
+   letter-spacing: 0.02px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+  
+   
+}
+
+.link-contacts{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.6rem;
+   line-height: 2.7rem;
+   color: #FFFFFF;
+   display: block;
+   margin-top: 1.5rem;
+   
+}
+
+.latest{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.3rem;
+   line-height: 2.4rem;
+   letter-spacing: 0.02px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   display: block;
+   margin-bottom: 1.9rem;
+}
+
+.text-latest{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.4rem;
+   line-height: 2.4rem;
+   letter-spacing: 0.02px;
+   color: #FFFFFF;
+   display: block;
+   max-width: 34.5rem;
+   margin-bottom: 1.6rem;
+}
+
+.email{
+
+   background: #214E41;
+}
+
+.widgets {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   margin-top: 3rem;
+}
+
+
+
+.inst{
+   padding-right: 2.5rem;
+}
+
+
+
+.description  {
+   
+   border-bottom: 0.01rem solid #FFF;
+   width: 135rem;
+   background:#FFF;
+   height:1px;
+   margin-bottom: 32.7rem; 
+   margin-top: 9.3rem;
+   
+   }
+
+ .footer-text{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.4rem;
+   line-height: 2.4rem;
+   letter-spacing: 0.02px;
+   color: #FFFFFF;
+   margin-bottom: 2rem;
+ }
+
+
+
+ .contacts-copy {
+   font-family: $body-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.02px;
+    color: #FFFFFF;
+    
+ }
+
+
+ .terms {
+   border-left: 0.01rem solid #FFF;
+   height:2.4rem;
+ }
+
+
+ .privacy{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }

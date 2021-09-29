@@ -1,0 +1,101 @@
+// для каждого компонента нужно импортить переменные, чтобы их использовать
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+.header__row{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 1.9rem 0 3.1rem;
+}
+.header__links{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+.logo__imgs{
+background-size: cover;
+}
+
+
+
+.link-header{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1.4rem;
+   line-height: 2rem;
+   color: $c-text;
+   margin-left: 5rem;
+   border: 2px solid transparent;
+   padding: 1rem;
+
+   &:hover{
+      
+      color:$c-text;
+      border: 2px solid $c-primary;
+      background:$c-secondary;
+      border-radius: 6px; 
+      padding: 1rem;  
+   }
+}
+.invers{
+   background: #43806C;
+   border-radius: 6px;
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1.4rem;
+   line-height: 20px;
+   color: #FFFFFF;
+   padding: 1rem 1.4rem;
+   border: 2px solid transparent;
+
+   &:hover{
+      
+      color:$c-text;
+      border: 2px solid $c-primary;
+      background:$c-secondary;   
+   }
+}
+
+// 1023px;
+@media screen and (max-width:$md){
+   
+.header__row{
+   margin: 1.6rem 2rem 2.5rem;
+}
+.link-header{
+   
+   margin-left: 3rem;
+}
+.invers{
+   font-size: 1.2rem;
+   padding: 1rem 1.2rem;
+}
+
+}
+
+
+
+// 767px;
+@media (max-width:$sm){
+   .invers{
+      
+      font-size: 1.2rem;
+      padding: 1rem 1.2rem;
+   }
+   .link-header{
+      margin-left: 1rem;
+   }
+
+}
+// 575px;
+@media (max-width:$xs){
+   .link-header{
+      margin-left: 5rem;
+   }
+
+}

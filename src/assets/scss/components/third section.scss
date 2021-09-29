@@ -1,0 +1,58 @@
+// Помощники
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+
+.content{
+   display:flex ;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.main-admin {
+   min-height: 64rem;
+   background-color: #E3EEED;
+   width: 49%; 
+   padding-left:15rem;
+   padding-top: 12rem;
+   
+}
+
+.customizable{
+   font-family: $headers-font;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 3.2rem;
+   line-height: 4.2rem;
+   color: $c-text;
+}
+
+.admin{
+   font-family:$headers-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 3.2rem;
+   line-height: 4.2rem;
+   color: #43806C;
+   margin-top: 1.8rem;
+
+}
+.body-admin{
+   min-height: 64rem;
+   background-color: $c-primary;
+   width: 51%;
+   padding-left:15rem;
+   padding-top: 12rem;  
+}
+.tagline{
+   font-family: $secondary-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 2rem;
+   line-height: 3.4rem;
+   letter-spacing: 0.02px;
+   color: #FFFFFF;
+   max-width: 49rem;
+   
+
+}
+

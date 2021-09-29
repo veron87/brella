@@ -1,0 +1,33 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+.enrollment{
+   background-image: url('../imgs/enrollment.jpg');
+   min-height: 52.2rem;
+   background-size: cover;
+   background-size:no-repeat;
+}
+
+.employers{
+   font-family:$body-font;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 1.3rem;
+   line-height: 2rem;
+   letter-spacing: 0.05px;
+   text-transform: uppercase;
+   color: #43806C; 
+   padding: 12.6rem 0 2rem;
+}
+
+.platforms{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.8rem;
+   line-height: 3rem;
+   letter-spacing: 0.02px;
+   color: $c-text2;
+   margin-bottom: 3.4rem;
+   max-width: 49.1rem; 
+}

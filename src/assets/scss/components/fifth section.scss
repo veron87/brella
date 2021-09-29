@@ -1,0 +1,65 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+
+.telephone{
+   display:flex ;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-top: 11.7rem;
+}
+
+
+.img-telephone{
+   margin-left: 11.5rem;
+}
+.experience{
+   font-family:$body-font;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 1.3rem;
+   line-height: 2rem;
+   letter-spacing: 0.05px;
+   text-transform: uppercase;
+   color: #43806C; 
+   margin: 6.8rem 0 2rem;
+}
+
+
+
+.people{
+   font-family: $headers-font;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 3.6rem;
+   line-height: 4.6rem;
+   color: $c-primary;
+   margin-bottom: 3.4rem;
+   max-width: 48.3rem;
+}
+
+
+.portal{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.8rem;
+   line-height: 3rem;
+   letter-spacing: 0.02px;
+   color: $c-text2;
+   margin-bottom: 3.4rem;
+   max-width: 54.5rem;
+}
+.video{
+   font-family:$body-font;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1.8rem;
+   line-height: 1.8rem;
+   text-align: center;
+   letter-spacing: 0.02px;
+   color:$c-primary;
+   border-bottom: 2px solid #214E41;
+   padding-bottom: 1.2rem;
+   
+}

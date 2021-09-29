@@ -1,0 +1,13 @@
+section.eighth
+   div.container
+      div.item-podcast
+         mixin item(img, title, description)
+            .items-podcast
+               .podcast-img
+                  img(src=img, alt=features)
+               div   
+                  .podcast__title=title
+                  .podcast__description=description
+         +item("./assets/imgs/podcast.jpg","Podcast","Better Voluntary Benefits with NFP Voluntary Benefits Practice Leader, Kim Heald")
+         +item("./assets/imgs/innovation.jpg","Insurance Innovation","How to Design Simpler Insurance Benefits")
+         +item("./assets/imgs/strategy.jpg","Benefits Strategy","Executive Benefits Outlook with Dan Aceti")   

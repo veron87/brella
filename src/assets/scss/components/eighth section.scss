@@ -1,0 +1,43 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+
+
+.item-podcast{
+   display:flex;
+   justify-content:center;
+   flex-wrap: wrap;
+   
+}
+
+
+.items-podcast{
+   margin: 0 2rem 12rem;
+}
+
+.podcast-img{
+   padding-bottom: 2rem;
+}
+
+.podcast__title{
+   font-family: $body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.1rem;
+   line-height: 1.8rem;
+   letter-spacing: 0.05px;
+   text-transform: uppercase;
+   color: #43806C;
+   margin-bottom: 1.5rem;
+   
+}      
+
+.podcast__description{
+   font-family: $headers-font;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 2rem;
+   line-height: 2.6rem;
+   color: $c-primary;
+   max-width: 35rem;
+}

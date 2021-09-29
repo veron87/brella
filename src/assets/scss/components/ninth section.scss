@@ -1,0 +1,42 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+.text-supplemental{
+   display:flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.supplemental {
+   height:57.7rem;
+   width: 45%;
+}
+.text-touch{
+   background: #E3EEED;
+   height:57.7rem;
+   width: 55%;
+   padding:14.4rem 0 0 12rem;
+   
+}
+
+.text-question{
+  max-width: 42.3rem; 
+  font-family: $headers-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  color: $c-text;
+  padding-bottom: 4.6rem;
+  
+}
+
+.touch{
+   background: #43806C;
+   border: 1px solid #43806C;
+   box-sizing: border-box;
+   border-radius: 6px;
+   margin-top: 1.4rem;
+   padding: 1.3rem 2.4rem 1.3rem 2.3rem;
+   color: #FFFFFF;
+}

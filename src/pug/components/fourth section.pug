@@ -1,0 +1,18 @@
+section.fourth
+   .container 
+      div.text-advertisement
+         div
+            p.coverage one plan, more coverage
+            h2.heading-text No one can predict which health issues might come their way.
+            p.medical-attention Our broad supplemental coverage gets rid of the guesswork and puts cash in your team’s pockets for most conditions that require urgent medical attention.
+         div.advertisement
+            img(src="./assets/imgs/advertisement.png", alt="advertisement")
+      div.statistics
+         mixin item(title, description)
+            div   
+               .item-title=title
+               .item-description=description
+         +item("5K","covered injuries and illnesses from fractures and appendicitis to cancer")
+         +item("1X","more covered conditions than Accident and Critical Illness plans—combined")
+         +item("40%","plans are 100% guaranteed issue. No medical underwriting required")
+         +item("0","Zero limitations or exclusions for pre-existing conditions")          
