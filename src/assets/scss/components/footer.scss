@@ -76,7 +76,15 @@
 
 .email{
 
-   background: #214E41;
+   background:$c-primary;
+   font-family:$body-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.4rem;
+   line-height: 2.4rem;
+   width:35.5rem;
+   height:5.2rem;
+   border: 1px solid #214E41;
 }
 
 .widgets {
@@ -101,7 +109,8 @@
    background:#FFF;
    height:1px;
    margin-bottom: 32.7rem; 
-   margin-top: 9.3rem;
+   margin-top: 7rem;
+   max-width: 120rem
    
    }
 
@@ -113,10 +122,21 @@
    line-height: 2.4rem;
    letter-spacing: 0.02px;
    color: #FFFFFF;
-   margin-bottom: 2rem;
+   padding: 7.3rem 0 2rem;
+   
  }
 
-
+ .endtext{
+   font-family: $secondary-font;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.4rem;
+   line-height: 2.4rem;
+   letter-spacing: 0.02px;
+   color: #FFFFFF;
+   margin-bottom: 2.4rem;
+   
+ }
 
  .contacts-copy {
    font-family: $body-font;
@@ -127,12 +147,14 @@
     letter-spacing: 0.02px;
     color: #FFFFFF;
     
+    
  }
 
 
  .terms {
    border-left: 0.01rem solid #FFF;
    height:2.4rem;
+   margin:0 0.9rem 0 1rem;
  }
 
 
@@ -141,3 +163,10 @@
    flex-wrap: wrap;
    justify-content: space-between;
  }
+
+ .last{
+   display: flex;
+   flex-wrap: wrap;
+
+ }
+   

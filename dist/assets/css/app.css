@@ -362,7 +362,7 @@ button {
   height: 171px;
   margin-top: -9.5rem; }
 
-.aside {
+.pic {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -792,7 +792,15 @@ button {
   margin-bottom: 1.6rem; }
 
 .email {
-  background: #214E41; }
+  background: #214E41;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  width: 35.5rem;
+  height: 5.2rem;
+  border: 1px solid #214E41; }
 
 .widgets {
   display: flex;
@@ -809,7 +817,8 @@ button {
   background: #FFF;
   height: 1px;
   margin-bottom: 32.7rem;
-  margin-top: 9.3rem; }
+  margin-top: 7rem;
+  max-width: 120rem; }
 
 .footer-text {
   font-family: "Raleway", sans-serif;
@@ -819,7 +828,17 @@ button {
   line-height: 2.4rem;
   letter-spacing: 0.02px;
   color: #FFFFFF;
-  margin-bottom: 2rem; }
+  padding: 7.3rem 0 2rem; }
+
+.endtext {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.02px;
+  color: #FFFFFF;
+  margin-bottom: 2.4rem; }
 
 .contacts-copy {
   font-family: "Raleway", sans-serif;
@@ -832,9 +851,14 @@ button {
 
 .terms {
   border-left: 0.01rem solid #FFF;
-  height: 2.4rem; }
+  height: 2.4rem;
+  margin: 0 0.9rem 0 1rem; }
 
 .privacy {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
+
+.last {
+  display: flex;
+  flex-wrap: wrap; }
